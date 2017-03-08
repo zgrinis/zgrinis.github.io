@@ -1,0 +1,89 @@
+body{margin:0;}
+#contact{
+display:block;
+
+float:right;
+padding-right:5%;
+}
+ul{
+ vertical-align: middle;
+ list-style:none;
+}
+li img {
+	height:30px; width:30px;
+	 vertical-align: middle;
+	 padding-right:10px;
+}
+
+
+
+.header{
+heigth:400px;
+margin: 0;
+font-family:Verdana, Geneva, sans-serif;
+color:white;
+padding:5;
+padding-left:100;
+background-color:#212E7A;
+}
+h1{font-family:Verdana, Geneva, sans-serif;}
+h2{font-family:Verdana, Geneva, sans-serif;}
+p{font-family:Verdana, Geneva, sans-serif;}
+.main{
+background-color:lightgrey;
+margin-left:20%;
+margin-right:20%;
+padding:10px;
+}
+
+.left{
+display:block;
+float:left;
+width:20%;
+background-color:#D8DBF1;
+height:100px;
+margin:0;
+}
+
+.center{
+display:block;
+width:80%;
+height:100px;
+background-color:#D8DBF1;
+float:right;
+margin:0;
+}
+
+
+
+#edu{
+padding:5;
+width:100%;
+
+color:white;
+}
+.pvz{
+width:100%;
+margin-top:200px;
+
+text-align:center;
+}
+.pvz h1 {text-align:center;color:white;}
+
+#title2{
+width:32%;
+height:auto;
+}
+
+#logo{
+width:50%;
+height:auto;
+float:center;
+}
+
+#freetime{
+width:48%;
+height:auto;
+ vertical-align: middle;
+}
+

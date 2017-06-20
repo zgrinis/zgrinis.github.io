@@ -1,104 +1,177 @@
 <html>
-	<body>
-	<head>
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-	
-		<div class="header">
-			<div id="contact">
-				<ul>
-					<li><img src="em.png">zgrinis@gmail.com</li>
-					<li><img src="mp.png">(8-623) 53304</li>
-				
-				</ul>
-			</div>
-		
-			<h1>&#381ygimantas Grinis</h1>
-			<h2>VGTU Multimedijos ir kompiuterinio dizaino studentas</h2>
+    
+    <head><title>Žygimantas Grinis Portfolio</title></head>
+    
+    <body>
+        	<div id="left">
 		</div>
 		
-	<div class="main">
-	<div class="item">	
-		<div id="Edu"><h2>I&#352SILAVINIMAS</h2></div>
-			<div class="left">
-				<p>1999 - 2011</p>
-			</div>
-			
-			<div class="center">
-				<p>Alytaus Piliakalnio pagrindin&#279 mokykla</br>Alytaus Jotvingi&#371; gimnazija</p>
-			</div>
-	</div>	
-	
-		<div class="item">	
-			<div class="left">
-				<p>2006 - 2010</p>
-			</div>
-			
-			<div class="center">
-				<p>Alytaus dail&#279s mokykla</p>
-			</div>
-	</div>	
-		<div class="item">	
-			<div class="left">
-				<p>2014 - dabar</p>
-			</div>
-			
-			<div class="center">
-				<p>Vilniaus Gedimino technikos universitetas, Multimedijos ir kompiuterinio dizaino studijos</p>
-			</div>
-			
-			
-			<div class="item">	
-		<div id="Edu"><h2>PATIRTIS</h2></div>
-			<div class="left">
-				
-			</div>
-			
-			<div class="center">
-				<p>Praktika UAB &#8222;Alytaus spaustuv&#279;&#8220;</p>
-				
-			</div>
-			
-				<div class="item">	
-		<div id="Edu"><h2>&#302;G&#362;D&#381;IAI</h2></div>
-			<div class="left">
-				
-			</div>
-			
-			<div class="center">
-				<p>Darbas su Adobe Photoshop, Illustrator programomis</p>
-				<p>C++, Javascript, HTML, CSS programavimo pagrindai</p>
-			</div>
-			
-	</div>	
-		
+		<div id="right">
+		</div>
+        
+        
+        <div id="header">
+            <div id="title">
+                <img id="tekstas" src="title.png">
+            </div>
+        </div>
+    
+        
+        <div class="item">
+            <h1>Kurso darbai</h1>
+           <a target="_blank" href="142KursinisGrinis.jpg"> <img id="krumpliai" src="142KursinisGrinis.jpg"></a>
+            
+            
+            <a target="_blank" href="pykuolis.pdf"><img id="pykuolis" src="pyk.png"></a>
+            
+            
+            <a target="_blank" href="deadline.pdf"><img src="ded.png" id="ded"></a>
+        </div>
+        
+        
+        <div class="item">
+            <h1>Iliustracijos</h1>
+            <a target="_blank" href="wolf.png"><img src="wolf.png" id="wolf"></a>
+            
+            <a target="_blank" href="woof.jpg"><img src="woof.jpg" id="woof"></a>
+        </div>
+        
+        <div class="item">
+            <h1>Architekt&#363;ra</h1>
+            <div id="arc">
+                <a target="_blank" href="title2.jpg"><img src="title2.jpg" id="title2"></a>
+                <a target="_blank" href="elevation.png"><img src="elevation.png" id="elevation"></a>
+                <a target="_blank" href="section.png"><img src="section.png" id="section"></a>
+            </div>
+        </div>
+        
+        <div class="item">
+        
+            <h1>Tapyba</h1>
+            <a href="frank.jpeg" target="_blank"><img src="frank.jpeg" id="frank"></a>
+            <a href="metro.jpg" target="_blank"><img src="metro.jpg" id="metro"></a>
+            
+        </div>
+        
+    </body>
+    
+    <style>
+    
+        body{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            background-image: url("tex.jpg");
+            background-position: center;
+        }
+        
+        #header{
+            margin: 0;
+            width: 100%;
+            height:428px;
+            background-image: url("header.png");
+            background-size: cover;
+            margin-bottom: 50px;
+            
+        }
+        
+        #title{
+            width: 100%;
+            margin: 0;
+            background-color: rgba(0,0,0,0.3);
+            position: relative;
+            top: 40%;
+            transform: translateY(-40%);
+            padding-top: 15px;
+            padding-bottom: 15px;
+         
+            
+        }
+        
+        #tekstas{
+            margin-left: 20%;
+            height: 30%;
+            width: auto;
+        }
+        .item{
+            margin: auto;
+            width: 60%;
+            height: auto;
+            margin-bottom: 100px;
+        }
+        #krumpliai{
+            width: 30%;
+            height: auto;
+        }
+        #pykuolis{
+            width: 34%;
+            height: auto;
+        }
+        
+        #ded{
+            width: 31%;
+            height: auto;
+        }
+        
+     
+        #wolf{
+            width: 40%;
+            height: auto;
+        }
+        #woof{
+            width: 40%;
+            height: auto;
+            
+        }
+        
+        #frank{
+            width: auto;
+            height: 40%;
+        }
+        
+        #metro{
+            height: 40%;
+            width: auto;
+        }
+        
+        #arc img{
+            
+            width: auto;
+            height: 40%;
+        }
+        
+       .item img{
+          display: inline;
+  margin-left: auto;
+  margin-right: auto;
+        }
+      
+        h1{
+            font-family: "Lucida Console", Monaco, monospace;
+            
+        }
+        
+        #left {
+min-width:188px;
+height:100%;
+margin:-1;
+background-image:url("side.png");
+z-index:999;
+position:fixed;
+}
 
-			<div class="pvz">
-			
-				<h1>DARB&#370; PAVYZD&#381;IAI</h1>
-			
-				<h2>Architekt&#363;ra</h2>
-					<div class="pvzback">
-		<a href="title2.jpg">	<img src="title2.jpg" id="title2"></a>
-		<a href="elevation.png">	<img src="elevation.png" id="title2"></a>
-		<a href="section.png">	<img src="section.png" id="title2"></a>
-					</div>
-					
-					<div class="pvzback">
-				<h2>Logotipas sporto var&#382;yboms</h2>
-				<a href="adamkiada.jpg"><img src="adamkiada.jpg" id="logo"></a>
-					</div>
-					
-					<div class="pvzback">
-				<h2>Laisvalaikis</h2>
-				<a href="wolf.png"><img src="wolf.png" id="freetime"></a>
-				<a href="graffiti.png"> <img src="graffiti.png" id="freetime"> </a>
-					</div>
-			</div>
-			
-			
-	</div>	
-	
-		</div>
-	</body>
+#right{
+min-width:188px;
+height:100%;
+right:0;
+margin:-1;
+background-image:url("side.png");
+ -webkit-transform: scaleX(-1);
+ z-index:999;
+ position:fixed;
+}
+        
+        
+    </style>
+    
 </html>
